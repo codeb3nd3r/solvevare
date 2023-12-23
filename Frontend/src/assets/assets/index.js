@@ -33,10 +33,10 @@ import graphicportfolio10 from "./graphicportfolio/11.png";
 import graphicportfolio11 from "./graphicportfolio/14.png";
 import logo2 from "./logo2.png";
 import solvevarerobot from "./solvevarerobot.png"
-import solvevare from "./solvevare.png"
 import solve from "./solve.svg"
 import payment from "./payment.png"
 import arrow from "./arrow.png"
+import solvevare from "./solvevare.png"
 
 export {
   airbnb,
@@ -63,7 +63,6 @@ export {
   twitter,
   logo2,
   solvevarerobot,
-  solvevare,
   payment,
   arrow,
   solve,
@@ -78,4 +77,5 @@ export {
   graphicportfolio7,
   graphicportfolio8,
   graphicportfolio9,
+  solvevare,
 };
