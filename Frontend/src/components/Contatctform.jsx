@@ -19,11 +19,11 @@ const ContactForm = () => {
     
         // If all fields are filled, proceed with the submission
         console.log(form);
-        setForm({ name: '', email: '', message: '' });
         try {
-            await axios.post("http://localhost:3001/contact",{
+            await axios.post("http://localhost:8080/contact",{
                 ...form
             })
+            setForm({ name: '', email: '', message: '' });
         } catch (error) {
             console.log(error);
         }
