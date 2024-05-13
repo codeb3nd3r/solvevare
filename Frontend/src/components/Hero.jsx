@@ -16,7 +16,7 @@ const Hero = () => {
           Solutions through software.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          We provide solutions with software.
+          We provide solutions with software
         </p>
       </div>
 
